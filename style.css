@@ -1,0 +1,33 @@
+* {
+    font-family: "Noto Kufi Arabic", serif;
+    font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+
+/* bootstrap.css */
+dt {
+    font-weight: 700
+        /* rtl:600 */
+    ;
+}
+
+/* bootstrap.rtl.css */
+dt {
+    font-weight: 600;
+}
+
+.col-5 {
+    text-align: justify;
+    /* لضبط النصوص */
+    direction: rtl;
+    /* لجعل النصوص تبدأ من اليمين */
+}
+
+.custom-footer {
+    background-color: #f4f4f4;
+    /* لون رمادي فاتح */
+    color: #333;
+    /* نص داكن ليتباين مع الخلفية */
+}
