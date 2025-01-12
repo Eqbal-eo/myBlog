@@ -40,14 +40,3 @@ dt {
     color: #333;
     /* نص داكن ليتباين مع الخلفية */
 }
-
-@media (max-width: 430px) {
-    /* تخصيص الأنماط عندما يكون عرض الشاشة أقل من 430px (شاشة iPhone 12 Pro Max عموديًا) */
-    body {
-      font-size: 14px;
-    }
-    .container {
-      padding: 15px;
-    }
-  }
-  
