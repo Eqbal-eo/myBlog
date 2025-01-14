@@ -18,19 +18,26 @@ dt {
     font-weight: 600;
 }
 
-.ahlan{
+.main-container {
+    margin-top: 1cm;
+    /* يضيف مسافة 5 سم من الأعلى */
+}
+
+.ahlan {
     color: rgb(108, 108, 104);
     text-align: justify;
     /* لضبط النصوص */
     direction: rtl;
     /* لجعل النصوص تبدأ من اليمين */
 }
-.col-5, .hat {
+
+.col-5,
+.hat {
     text-align: justify;
     /* لضبط النصوص */
     direction: rtl;
     /* لجعل النصوص تبدأ من اليمين */
-        color: rgb(108, 108, 104);
+    color: rgb(108, 108, 104);
 
 }
 
@@ -40,3 +47,23 @@ dt {
     color: #333;
     /* نص داكن ليتباين مع الخلفية */
 }
+
+.editor-header {
+    text-align: start;
+}
+
+.editor-header h1 {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    color: #3e61ab;
+    font-weight: bold;
+}
+
+.editor-header p {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+
+
+
